@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PopUp</title>
+    <link rel="stylesheet" href="/1-Style/main.css">
+    <link rel="stylesheet" href="pop.css">
+</head>
+
+<body>
+    <div id="pop" class="pop">
+        <button onclick="closePopUp()">x</button>
+    </div>
+    <div id="overlay" class="overlay"></div>
+    <div class="container">
+        <button onclick="showPopUp()">Click me</button>
+    </div>
+    <script>
+        let pop = document.getElementById("pop");
+        let overlay = document.getElementById("overlay");
+
+        const showPopUp = () => {
+            pop.style.display = "block";
+            overlay.style.display = "block";
+        }
+
+        const closePopUp = () => {
+            pop.style.display = "none";
+            overlay.style.display = "none";
+        }
+    </script>
+</body>
+
+</html>

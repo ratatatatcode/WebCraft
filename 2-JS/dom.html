@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Internal CSS -->
+    <style>
+        *,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .main-container {
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <h1 style="font-family: Arial, Helvetica, sans-serif; text-align: center;">DOCUMENT OBJECT MODEL
+            (DOM)<br>MANIPULATION</h1>
+
+        <h2 id="changeMe" style="color: red; margin: 10px;">I want to change 😥</h2>
+        <button style="padding: 10px;" onclick="change()">Change him/her?</button>
+    </div>
+    <script>
+        /* You can get the h3 by using the getElementsByTagName
+            but I won't recommend it since it will get all the h3 elements
+        let changingText = document.getElementsByTagName("h3"); */
+
+        let changingText = document.getElementById("changeMe");
+        // We can now edit the style property of the changeMe
+
+        /* You can also create a function using this syntax...
+        function changeMe() {
+
+        } */
+
+        // I prefer this since in React, you will often use this function call.
+        const change = () => {
+            changingText.innerHTML = "Yey 🥰";
+            changingText.style.color = "blue";
+        }
+    </script>
+</body>
+
+</html>

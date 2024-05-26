@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar</title>
+    <link rel="stylesheet" href="/1-Style/main.css">
+    <link rel="stylesheet" href="nav.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <div class="Logo">
+                <h4>LOGO</h4>
+            </div>
+
+            <button class="hidden" onclick="mobileNav()">BURGER</button>
+            <div class="right-nav">
+                <li><a>HOME</a></li>
+                <li><a>ABOUT</a></li>
+                <li><a>LOGIN</a></li>
+            </div>
+
+            <div id="menu" class="mobile-nav">
+                <li><a>HOME</a></li>
+                <li><a>ABOUT</a></li>
+                <li><a>LOGIN</a></li>
+            </div>
+        </ul>
+    </nav>
+
+    <script>
+        let menu = document.getElementById("menu");
+
+        const mobileNav = () => {
+            if (menu.style.display == "block") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "block"
+            }
+        }
+    </script>
+</body>
+
+</html>

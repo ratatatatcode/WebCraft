@@ -1,0 +1,33 @@
+/*
+    * = everything if I'm not mistaken
+    
+    Try removing removing the margin, padding: 0;
+    Try to create a container and change any background color except white
+    with 100vh and 100vw.
+
+    You will notice a white space around the container.
+*/
+
+/* Declaration of CSS Variable
+   This is a good practice for when you're creating your own project.
+   For example, you can compile all the colors you need. */
+
+:root {
+    --main-color: blue;
+}
+
+*,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS Variable */
+h2 {
+    color: var(--main-color);
+}
+
+/* The '0-HTML/style.css' section contains 3 ways to center a div.
+   (Position, Flex, and Grid)
+   
+   I've included links to some CSS games you can play with and learn from.*/

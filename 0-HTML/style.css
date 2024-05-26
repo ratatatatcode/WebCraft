@@ -1,0 +1,48 @@
+/*
+    There are many different ways to center a div/element.
+    Below example is using flex.
+
+    I recommend this flex game for better understand of flex
+    https://flexboxfroggy.com/
+
+    When using flex, don't forget to add height.
+    100vh is the default size for a desktop resolution.
+    100vw o 100% for width.
+
+    Learn CSS by playing games
+    https://medium.com/geekculture/learn-css-by-playing-games-cf70a79a38
+*/
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    gap: 5px;
+}
+
+/*
+    CENTER AN ELEMENT USING GRID.
+    I recommend this grid game for better understand of flex
+    https://cssgridgarden.com/
+
+    .container {
+        display: grid;
+        place-content: center;
+        height: 100vh;
+    }
+*/
+
+/*  
+    CENTER AN ELEMENT USING POSITION.
+    There are many different positions, relative, absolute, inherit, static etc...
+    https://learnlayout.com/position
+
+    .container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
