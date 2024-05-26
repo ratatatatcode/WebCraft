@@ -1,0 +1,18 @@
+/* Declaration of CSS Variable
+   This is a good practice for when you're creating your own project.
+   For example, you can compile all the colors you need. */
+
+:root {
+    --main-color: blue;
+}
+
+*,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS Variable */
+h2 {
+    color: var(--main-color);
+}

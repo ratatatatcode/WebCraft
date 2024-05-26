@@ -10,10 +10,10 @@ body {
 <br><br>
 
 Try removing removing the margin, padding: 0;
-<br>Then create a container and change the background color to blue with <b>100vh and 100vw (default size for desktop).</b>
+<br>Then create a container and change the background color to blue with <b>100vh and 100vw/100% (default size for desktop).</b>
 ``` html
 <!-- index.html -->
-<div class="container"></div>
+<div id="container"></div>
 ```
 ``` css
 /* styles.css */
@@ -21,9 +21,10 @@ Try removing removing the margin, padding: 0;
 body {
 }
 
-.container {
+<!-- # - calling "id" attribute from the HTML -->
+#container {
   height: 100vh;
-  width: 100vh;
+  width: 100%;
   background-color: blue;
 }
 ```
