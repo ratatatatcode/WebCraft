@@ -1,5 +1,5 @@
 <b>Internal CSS</b>
-<br>Adding Styles to your HTML by placing them within the <head> tag of the same HTML file.
+<br>Adding styles by placing them within the head tag of the same HTML file.
 <br>
 ``` html  
 <!DOCTYPE html>
