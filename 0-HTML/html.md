@@ -42,6 +42,3 @@ Color Highlight
     </details>
 </div>
 ```
-<br>
-
-<b>You can try running the "index.html" file inside the "0-HTML" folder. Just click the "Go Live" button in the bottom-right corner of your VS Code.</b>
