@@ -15,13 +15,13 @@ Try removing removing the margin, padding: 0;
 <!-- index.html -->
 <div id="container"></div>
 ```
+
 ``` css
 /* styles.css */
 *,
 body {
 }
 
-<!-- # - calling "id" attribute from the HTML -->
 #container {
   height: 100vh;
   width: 100%;
@@ -29,3 +29,8 @@ body {
 }
 ```
 <br>
+
+<b>You can call elements using in CSS:</b>
+* h1 (directly calling the tag)
+* .className - use to call a class attribute (class="className)
+* #idName - use to call an id attribute (id="idName)
