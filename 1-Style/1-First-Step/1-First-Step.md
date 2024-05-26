@@ -29,5 +29,3 @@ body {
 }
 ```
 <br>
-
-<b>Run the HTML file where this md resides. It will show you the output.</b>
