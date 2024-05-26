@@ -3,7 +3,7 @@
 <br><br>For the actual learning documentation, I highly recommend <a href="https://www.w3schools.com/html/default.asp">w3schools</a>.
 <br><br>
 
-<b>Recommended Extensions (Ctrl + Shift + x):</b>
+<b>Recommended Extensions (Ctrl + Shift + x) in Visual Studio Code:</b>
 ```
 Live Server
 Prettier
