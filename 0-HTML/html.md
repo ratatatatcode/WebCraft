@@ -1,11 +1,3 @@
-<b>Recommended Extensions (Ctrl + Shift + x):</b>
-```
-Live Server
-Prettier
-Color Highlight
-```
-<br>
-
 <b>In VS Code, you can just type "!" then press Enter to automatically write out the lines of code for you.</b>
 
 ``` html
