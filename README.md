@@ -3,11 +3,22 @@
 <br><br>For the actual learning documentation, I highly recommend <a href="https://www.w3schools.com/html/default.asp">w3schools</a>.
 <br><br>
 
-<b>Recommended Extensions (Ctrl + Shift + x) in Visual Studio Code:</b>
+<b>Recommended Extensions in Visual Studio Code:</b>
 ```
 Live Server
 Prettier
 Color Highlight
+```
+<br>
+
+<b>Learn some common <a href="https://dev.to/devland/100-crucial-keyboard-shortcuts-for-vs-code-users-4474">key bindings</a> in Visual Studio Code. You don't actually need to learn everything.</b>
+```
+Ctrl + /: Toggle line comment
+Shift + Alt + A: Toggle block comment
+Ctrl + D: Move Last Selection To Next Find Match
+Ctrl + L: Select current line
+Ctrl + `: Toggle Integrated Terminal
+Ctrl + Shift + `: Create new terminal
 ```
 <br>
 
