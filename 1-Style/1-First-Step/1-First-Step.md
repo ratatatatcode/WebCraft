@@ -30,7 +30,10 @@ body {
 ```
 <br>
 
-<b>You can call elements using in CSS:</b>
+<b>You can call elements using the following in CSS:</b>
 * h1 (directly calling the tag)
 * .className - use to call a class attribute (class="className)
 * #idName - use to call an id attribute (id="idName)
+<br>
+
+<b>I recommend using class selector for CSS.</b>
