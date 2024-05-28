@@ -1,5 +1,23 @@
-<b>Let's say you have the following HTML code inside your HTML file.
-<br>You want to center the p tag within the container.</b>
+<b>We can tackle centering divs later, but have you considered using Google Fonts to add some style to your project. It's pretty easy to set up.</b>
+* Search for a font on <a href="https://fonts.google.com/">Google Fonts</a>
+* Select a font and click it.
+* Click "Get Font" then choose "Get embeded code".
+* Under "Embed code," select the "@" symbol (usually labelled "Import").
+* Then follow how I import it in the css file.
+``` css
+/* styles.css */
+.box-container {
+    font-family: "Bebas Neue", sans-serif;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 15px;
+    background-color: white;
+}
+```
+<br>
+
+<b>Now, let's say you have the following HTML code inside your HTML file.
+<br>You want to center the box-container within the container.</b>
 ``` html
 <!-- index.html -->
 <body>
