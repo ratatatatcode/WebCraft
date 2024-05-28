@@ -6,6 +6,8 @@
 * Then follow how I import it in the css file.
 ``` css
 /* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 .box-container {
     font-family: "Bebas Neue", sans-serif;
     border: 2px solid black;
